@@ -1,5 +1,5 @@
 {% set name = "brokenaxes" %}
-{% set version = "0.4.2" %}
+{% set version = "0.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/brokenaxes-{{ version }}.tar.gz
-  sha256: dccd7d5e5aacb7128e0f6727505af37ebdcdd8e5f0f35bc126d8d4e0a0a1a10f
+  sha256: bfa68242f003c02fe57ce7b5c5671c78c733ac8cc51a2be0f3ee6906c18e5d49
 
 build:
   number: 0
